@@ -10,3 +10,5 @@ samsungData.rda is the data use to conduct this experiment.
 --------------Recommendation---------------
 
 I would recommend not running this algorithm on any laptop or computer that cannot handle a long computation time at maximum utilization of the machine.  Conducting a 5-fold cross-validation random forest algorithm took approximately 20 minutes to run on my machine using multi-threading.
+
+An implementation using the caret package for selecting training/testing sets, and the h2o package for running the random forest algorithm would most likely produce better, more efficient results.
